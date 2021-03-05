@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>COVID Impact US National Parks</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Parks & COVID19</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Alaska.html">Alaska</a>
+                        <a class="dropdown-item" href="NationalCapital.html">National Capital</a>
+                        <a class="dropdown-item" href="Northeast.html">Northeast</a>
+                        <a class="dropdown-item" href="Pacificwest.html">Pacific West</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Comparisons.html">Comparisons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <br></br>
+                <h1>COVID:19 v. US Parks Analysis</h1>
+                <hr>
+                <img src="assets/region_alaska_COVID_nps_gigi.png" class="img-thumbnail" alt="Alaska Chart">
+                <p><b> PURPOSE:</b> This project began as an exploratory data analysis (EDA) to let the data 'speak to
+                    us.' Presented in this website are data analysis on the impact of the novel Coronavirus (COVID:19)
+                    on the U.S. National Park Visitations.</p>
+
+                <p><b>BACKGROUND:</b>In January 2021, my research partner and I found the U.S. National Park Service
+                    statistics page
+                    (<a href="https://irma.nps.gov/STATS/" target="_blank">NPS Stats</a>), which houses a rich
+                    collection
+                    of data on visitors to the U.S. National Parks. The data are provided in pre-formatted reports
+                    dating back to 1904 and cut by a variety of park charateristics (e.g., park type, park region, state
+                    location, acitivities, etc.).</p>
+
+                <p> Once the data were cleaned and organized the data, we initially wanted to know
+                    the number of parks (there are 423), why kinds of parks (there are 19 different categorial parks),
+                    and which parks were the most and least vistied. The most visited over a ten year period (2010-2019)
+                    was <a href="https://www.nps.gov/goga/index.htm" targent="_blank">Golden Gate National Recreation
+                        Area</a>. The least visited over the same period was <a
+                        href="https://www.nps.gov/ania/index.htm" target="_blank">
+                        Aniakchak National Monument & Preserve</a>.</p>
+
+                <p><b>RESEARCH QUESTION:</b> <em>To what extent did COVID:19 affect the park visitation numbers at the
+                        regional level before and
+                        during
+                        COVID:19 lock-down measures and policies took place?</em> For the U.S., many states issued a
+                    stay-at-home
+                    lock-down policy around March 2020, when COVID:19 began to make its presence on the U.S. population.
+                    I present my portion of the research project that answers this research question at a <em>regional
+                        level</em>, which examines the 2019 and 2020 data.</p>
+                <p><b>TAKEAWAY RESULTS:</b> There are three overall findings you could take from my analysis:
+                <ul>
+                    <li>The parks did not see the same number of visits in 2020 like it did in 2019, which was expected.
+                        Rather, the parks experienced a great decline in visits. </li>
+                    <li>Without Googling the answer, it seems like the National Park Service closed the parks in the
+                        month of April 2020. Depsite closing, there were a still a large number of visits to parks,
+                        which I did not expect.</li>
+                    <li>These data visualizations help interested stakeholders to understand when guests typically visit
+                        a park under non-pandemic conditions. Having these visuals provide a quick
+                        glance of when parks are the most busiest. Thus, it tells visitors when to avoid the crowds or
+                        the parks when they need to amp up provisions and safety precautions for accommodate large
+                        influx of visitors.
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <div class="col-4 col-sm-2">
+                <br></br>
+                <h2>Visualizations</h2>
+                <hr>
+                <a href="Alaska.html" target="_blank">
+                    <img src="assets/region_alaska_COVID_nps_gigi.png" class="img-fluid" alt="Alaska Chart">
+                </a>
+                <a href="NationalCapital.html" target="_blank">
+                    <img src="assets/region_natcapital_COVID_nps_gigi.png" class="img-fluid"
+                        alt="National Capital Chart">
+                </a>
+                <a href="Northeast.html" target="_blank">
+                    <img src="assets/region_northeast_COVID_nps_gigi.png" class="img-fluid" alt="Northeast Chart">
+                </a>
+                <a href="Pacificwest.html" target="_blank">
+                    <img src="assets/region_pacificwest_COVID_nps_gigi.png" class="img-fluid" alt="Pacific West Chart">
+                </a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
